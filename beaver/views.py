@@ -110,7 +110,7 @@ class Logs(APIView):
             if not s.is_valid():
                 return error_response(s, entry)
             serializers.append(s)
-            print s.save(r)
+            check(s.save(r))
 
         ret = {
             'entries': [s.data for s in serializers]

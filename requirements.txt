@@ -1,3 +1,4 @@
 djangorestframework
 rethinkdb
 protobuf
+requests

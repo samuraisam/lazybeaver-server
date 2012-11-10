@@ -16,5 +16,5 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^logs/?', beaver.views.Logs.as_view())
+    url(r'^api/logs/?', beaver.views.Logs.as_view())
 )
