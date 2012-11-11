@@ -8,7 +8,7 @@ API:
 
 The API is described thusly:
 
-POST  `/logs`
+POST  `/api/logs`
 -------------
 
 Create a series of new log entries.
